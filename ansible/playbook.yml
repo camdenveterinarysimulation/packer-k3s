@@ -1,0 +1,9 @@
+---
+
+- name: Build a single node k3s cluster
+  hosts: all
+  vars:
+    k3s_become: true
+  roles:
+    - name: k3s
+      src: xanmanning.k3s
