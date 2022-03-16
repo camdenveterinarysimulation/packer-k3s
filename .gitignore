@@ -1,0 +1,9 @@
+packer_cache/
+*.pkrvars.hcl
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+crash.*.log

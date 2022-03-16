@@ -13,7 +13,7 @@ variable "ssh_username"{
   type        = string
 }
 
-variable "zone" {
+variable "region" {
   description = ""
   type        = string
 }
